@@ -794,7 +794,7 @@ spawn(
 spawn(
     function()
         while task.wait() do
-            Message1 = 'Control my character for me!\nSay "controls" to see all controls.'
+            Message1 = 'Control my character!\nSay "controls" (no words after or before) to see all controls.'
             Message2 = ""
             for v in Message1:gmatch "." do
                 Message2 = Message2 .. v
